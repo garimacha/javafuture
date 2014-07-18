@@ -9,12 +9,11 @@ public  class Hello {
         return "Hello, World!";
     }
 
-    public static  class GreetingReturn
-    {
-        public static String greetReturn()
+
+
+        public  String greetReturn()
         {
             return "I am good";
         }
 
     }
-}
