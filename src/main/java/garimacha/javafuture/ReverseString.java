@@ -1,4 +1,6 @@
 package garimacha.javafuture;
+import java.util.Formatter;
+import java.lang.Object;
 
 
 
@@ -15,6 +17,8 @@ public static void main() {
         System.out.println(str[i]);
     }
     System.out.println();
+
+
 
 }
 }
