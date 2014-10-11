@@ -28,6 +28,19 @@
         </dependency>
     </dependencies>
 
+   <packaging>
+
+   </packaging>
+
+
+    <build>
+
+    </build>
+
+    <scm>
+
+    </scm>
+
     <!--Profiles-->
     <profiles>
 
