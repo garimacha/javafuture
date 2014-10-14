@@ -9,10 +9,12 @@
 
     <name>Maven Quick Start Archetype</name>
     <url>http://maven.apache.org</url>
-
+<!--Variables declared to be used -->
     <properties>
         <junit4.version>4.11</junit4.version>
         <assertj.version>1.6.1</assertj.version>
+
+        <maven.war.version>2.1</maven.war.version>
     </properties>
 
     <dependencies>
