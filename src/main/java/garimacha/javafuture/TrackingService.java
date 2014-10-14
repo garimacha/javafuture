@@ -5,7 +5,7 @@ package garimacha.javafuture;
  */
 public class TrackingService {
 
-    publi void trackingserviceMainMethodFortest() {
+    public void trackingserviceMainMethodFortest() {
     }
     }
-}
+
