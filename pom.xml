@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>garimacha</groupId>
-    <artifactId>javafuture</artifactId>
+    <artifactId>javafuture</artifactId><!--this is the name of the jar file -->
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>jar</packaging><!--if the value is changed to WAR then it will be a war file-->
 
     <name>Maven Quick Start Archetype</name>
     <url>http://maven.apache.org</url>
@@ -30,6 +30,10 @@
             <version>${assertj.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--<dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId></artifactId>
+        </dependency>-->
     </dependencies>
 
 
