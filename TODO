@@ -1,0 +1,18 @@
+-Add include and exclude tags in the pom.xml for maven to include or exclude the files.
+-Include the scm plugin for respositary for maven pom.xml
+<project>
+  ...
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>SCM Sample Project</name>
+  <url>http://somecompany.com</url>
+  <scm>
+    <connection>scm:svn:http://somerepository.com/svn_repo/trunk</connection>
+    <developerConnection>scm:svn:https://somerepository.com/svn_repo/trunk</developerConnection>
+    <url>http://somerepository.com/view.cvs</url>
+  </scm>
+  ...
+</project>
+
+--Spring functionality is not added
+
