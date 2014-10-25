@@ -54,7 +54,9 @@
 
             </plugins>
 
-
+           <!-- <goals>
+                <goal>java</goal>
+            </goals>-->
 
         </build>
 
