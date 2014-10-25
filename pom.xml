@@ -73,6 +73,10 @@
 
     <!--Profiles-->
     <profiles>
+        <profile>
+            <id>run-it</id>
+        </profile>
+
 
 
     </profiles>
