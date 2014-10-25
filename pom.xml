@@ -46,9 +46,7 @@
                     <executions>
                         <execution>
                             <phase>package</phase>
-                            <goals>
-                                <goal>java</goal>
-                            </goals>
+
                         </execution>
                     </executions>
 
@@ -64,10 +62,14 @@
 
     </scm>
 
-    <!--Profiles-->
+    <!--Profiles
+    Profiles can also be active by default using a configuration-->
     <profiles>
         <profile>
             <id>run-it</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
         </profile>
 
 
